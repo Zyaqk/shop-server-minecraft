@@ -1,0 +1,28 @@
+.imgItem {
+    width: 80px;
+}
+
+.item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 150%;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    position: fixed;
+    right: 50px;
+}
