@@ -36,6 +36,9 @@ function handleButtonClick(itemId) {
         const buyerNicknameInput = document.getElementById('nickname');
         const buyerId = buyerNicknameInput.value.trim();
 
+        const useCuponInput = document.getElementById('nickname');
+        const cuponId = useCuponInput.value.trim();
+
         const urlBuy = `https://api.trademc.org/shop.buyItems?items=${itemsData}&buyer=${buyerId}&v=3`;
 
         if (buyerId === '') {
